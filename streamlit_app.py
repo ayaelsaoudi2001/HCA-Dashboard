@@ -265,7 +265,6 @@ else:
         st.line_chart(data=filtered_plot.set_index('Year'))
 
     with c8:
-        import plotly.express as px
         
         data_for_year_grouped = number_alcohol_use_disorder_copy[number_alcohol_use_disorder_copy['Year'] == selected_year]
 
